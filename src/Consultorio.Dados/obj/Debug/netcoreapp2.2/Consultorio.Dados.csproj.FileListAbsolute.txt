@@ -1,0 +1,12 @@
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Dados\bin\Debug\netcoreapp2.2\Consultorio.Dados.deps.json
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Dados\bin\Debug\netcoreapp2.2\Consultorio.Dados.dll
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Dados\bin\Debug\netcoreapp2.2\Consultorio.Dados.pdb
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Dados\bin\Debug\netcoreapp2.2\Consultorio.Negocios.dll
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Dados\bin\Debug\netcoreapp2.2\Consultorio.Negocios.pdb
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Dados\obj\Debug\netcoreapp2.2\Consultorio.Dados.csprojAssemblyReference.cache
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Dados\obj\Debug\netcoreapp2.2\Consultorio.Dados.csproj.CoreCompileInputs.cache
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Dados\obj\Debug\netcoreapp2.2\Consultorio.Dados.AssemblyInfoInputs.cache
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Dados\obj\Debug\netcoreapp2.2\Consultorio.Dados.AssemblyInfo.cs
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Dados\obj\Debug\netcoreapp2.2\Consultorio.Dados.csproj.CopyComplete
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Dados\obj\Debug\netcoreapp2.2\Consultorio.Dados.dll
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Dados\obj\Debug\netcoreapp2.2\Consultorio.Dados.pdb

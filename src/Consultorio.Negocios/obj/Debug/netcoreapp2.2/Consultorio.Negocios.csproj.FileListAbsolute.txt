@@ -1,0 +1,14 @@
+C:\Users\jhonny\source\repos\Consultorio\Consultorio.Negocios\bin\Debug\netcoreapp2.2\Consultorio.Negocios.deps.json
+C:\Users\jhonny\source\repos\Consultorio\Consultorio.Negocios\bin\Debug\netcoreapp2.2\Consultorio.Negocios.dll
+C:\Users\jhonny\source\repos\Consultorio\Consultorio.Negocios\obj\Debug\netcoreapp2.2\Consultorio.Negocios.csprojAssemblyReference.cache
+C:\Users\jhonny\source\repos\Consultorio\Consultorio.Negocios\obj\Debug\netcoreapp2.2\Consultorio.Negocios.csproj.CoreCompileInputs.cache
+C:\Users\jhonny\source\repos\Consultorio\Consultorio.Negocios\obj\Debug\netcoreapp2.2\Consultorio.Negocios.AssemblyInfoInputs.cache
+C:\Users\jhonny\source\repos\Consultorio\Consultorio.Negocios\obj\Debug\netcoreapp2.2\Consultorio.Negocios.AssemblyInfo.cs
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Negocios\bin\Debug\netcoreapp2.2\Consultorio.Negocios.deps.json
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Negocios\bin\Debug\netcoreapp2.2\Consultorio.Negocios.dll
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Negocios\bin\Debug\netcoreapp2.2\Consultorio.Negocios.pdb
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Negocios\obj\Debug\netcoreapp2.2\Consultorio.Negocios.csproj.CoreCompileInputs.cache
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Negocios\obj\Debug\netcoreapp2.2\Consultorio.Negocios.AssemblyInfoInputs.cache
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Negocios\obj\Debug\netcoreapp2.2\Consultorio.Negocios.AssemblyInfo.cs
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Negocios\obj\Debug\netcoreapp2.2\Consultorio.Negocios.dll
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Negocios\obj\Debug\netcoreapp2.2\Consultorio.Negocios.pdb

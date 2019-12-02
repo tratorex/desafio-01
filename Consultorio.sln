@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F0C1E73F-02F2-48E4-9436-46C5247E2078}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consultorio.Dados", "src\Consultorio.Dados\Consultorio.Dados.csproj", "{01F04BE4-97FF-4233-A4FE-0FE465A9A26F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consultorio.Negocios", "src\Consultorio.Negocios\Consultorio.Negocios.csproj", "{13D5B691-7CA4-4912-BD1E-EC346E3C8668}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consultorio.Migrations", "src\Consultorio.Migrations\Consultorio.Migrations.csproj", "{9F3EDF54-7677-4EF6-8BB3-D7AB3F94D69B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consultorio.WebApp", "src\Consultorio.WebApp\Consultorio.WebApp.csproj", "{FB09FE01-9092-476A-89EE-8682B132FCF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{B7693988-87CD-4B13-9C4E-CE0D815DDF34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "psake", "psake", "{90F3933E-20C6-4803-A1B4-4607FD435A9E}"
+	ProjectSection(SolutionItems) = preProject
+		tools\psake\psake.cmd = tools\psake\psake.cmd
+		tools\psake\psake.ps1 = tools\psake\psake.ps1
+		tools\psake\psake.psm1 = tools\psake\psake.psm1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{1ED0C3DF-832A-44E9-B81C-0C3158D7C9B8}"
+	ProjectSection(SolutionItems) = preProject
+		tools\scripts\Remove-Directory.psm1 = tools\scripts\Remove-Directory.psm1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B016013-BB00-4B50-A795-ADDA31660E14}"
+	ProjectSection(SolutionItems) = preProject
+		build.ps1 = build.ps1
+		Migrate.ps1 = Migrate.ps1
+		psakefile.ps1 = psakefile.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F67C6A68-F1B2-4DD8-9180-8FB66B3FB7A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultorio.UnitTest", "test\Consultorio.UnitTest\Consultorio.UnitTest.csproj", "{17FBC737-125E-4353-822F-D3BCC3BFEAD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01F04BE4-97FF-4233-A4FE-0FE465A9A26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F04BE4-97FF-4233-A4FE-0FE465A9A26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F04BE4-97FF-4233-A4FE-0FE465A9A26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F04BE4-97FF-4233-A4FE-0FE465A9A26F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D5B691-7CA4-4912-BD1E-EC346E3C8668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D5B691-7CA4-4912-BD1E-EC346E3C8668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D5B691-7CA4-4912-BD1E-EC346E3C8668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D5B691-7CA4-4912-BD1E-EC346E3C8668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3EDF54-7677-4EF6-8BB3-D7AB3F94D69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3EDF54-7677-4EF6-8BB3-D7AB3F94D69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3EDF54-7677-4EF6-8BB3-D7AB3F94D69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3EDF54-7677-4EF6-8BB3-D7AB3F94D69B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB09FE01-9092-476A-89EE-8682B132FCF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB09FE01-9092-476A-89EE-8682B132FCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB09FE01-9092-476A-89EE-8682B132FCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB09FE01-9092-476A-89EE-8682B132FCF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FBC737-125E-4353-822F-D3BCC3BFEAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FBC737-125E-4353-822F-D3BCC3BFEAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FBC737-125E-4353-822F-D3BCC3BFEAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FBC737-125E-4353-822F-D3BCC3BFEAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01F04BE4-97FF-4233-A4FE-0FE465A9A26F} = {F0C1E73F-02F2-48E4-9436-46C5247E2078}
+		{13D5B691-7CA4-4912-BD1E-EC346E3C8668} = {F0C1E73F-02F2-48E4-9436-46C5247E2078}
+		{9F3EDF54-7677-4EF6-8BB3-D7AB3F94D69B} = {F0C1E73F-02F2-48E4-9436-46C5247E2078}
+		{FB09FE01-9092-476A-89EE-8682B132FCF4} = {F0C1E73F-02F2-48E4-9436-46C5247E2078}
+		{B7693988-87CD-4B13-9C4E-CE0D815DDF34} = {9B016013-BB00-4B50-A795-ADDA31660E14}
+		{90F3933E-20C6-4803-A1B4-4607FD435A9E} = {B7693988-87CD-4B13-9C4E-CE0D815DDF34}
+		{1ED0C3DF-832A-44E9-B81C-0C3158D7C9B8} = {B7693988-87CD-4B13-9C4E-CE0D815DDF34}
+		{17FBC737-125E-4353-822F-D3BCC3BFEAD7} = {F67C6A68-F1B2-4DD8-9180-8FB66B3FB7A8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A22820CB-8191-44EB-92CF-C641BD657DB7}
+	EndGlobalSection
+EndGlobal

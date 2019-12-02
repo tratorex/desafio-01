@@ -1,0 +1,61 @@
+<h1>Agendar Consulta</h1>
+<form [formGroup]="consultaForm" (ngSubmit)="agendar()">
+  <input type="hidden" class="form-control" formControlName="id" />
+  <div class="form-row">
+    <div class="form-group col-8 mt-1">
+      <label>Nome do paciente:</label>
+      <div class="input-group">
+        <input type="text" class="form-control" formControlName="nomePaciente">
+      </div>
+    </div>
+    <div class="form-group col-4 mt-1">
+      <label>Data de nascimento:</label>
+      <div class="input-group">
+        <input type="date" class="form-control" formControlName="dataNascimento">
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-4 mt-1">
+      <label>Início da consulta:</label>
+      <div class="input-group">
+        <input type="datetime-local" class="form-control" formControlName="dataInicial">
+
+      </div>
+    </div>
+    <div class="form-group col-4 mt-1">
+      <label>Fim da consulta:</label>
+      <div class="input-group">
+        <input type="datetime-local" class="form-control" formControlName="dataFinal">
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-12 mt-1">
+      <label>Observações:</label>
+      <div class="input-group">
+        <textarea class="form-control" formControlName="observacoes"></textarea>
+      </div>
+    </div>
+  </div>
+  <div class="col-12" *ngIf="datasInvalidas">
+    <div class="alert alert-danger" role="alert">
+      <strong>O fim da consulta não pode ser anterior ao inicio!</strong>
+    </div>
+  </div>
+  <div class="col-12" *ngIf="temErro">
+    <div class="alert alert-danger" role="alert">
+      <strong>{{consultaForm.get("errorMessage").value}}</strong>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-12 mt-1">
+      <span class="input-group-btn ml-1">
+        <button type="submit" class="btn btn-primary mt-3" [disabled]="!consultaForm.valid">Agendar</button>
+      </span>
+      <span class="input-group-btn ml-1">
+        <a routerLink="/" class="btn btn-success mt-3">Voltar</a>
+      </span>
+    </div>
+  </div>
+</form>

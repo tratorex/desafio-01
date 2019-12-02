@@ -1,0 +1,9 @@
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Migrations\bin\RELEASE\netcoreapp2.2\Consultorio.Migrations.deps.json
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Migrations\bin\RELEASE\netcoreapp2.2\Consultorio.Migrations.dll
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Migrations\bin\RELEASE\netcoreapp2.2\Consultorio.Migrations.pdb
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Migrations\obj\RELEASE\netcoreapp2.2\Consultorio.Migrations.csprojAssemblyReference.cache
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Migrations\obj\RELEASE\netcoreapp2.2\Consultorio.Migrations.csproj.CoreCompileInputs.cache
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Migrations\obj\RELEASE\netcoreapp2.2\Consultorio.Migrations.AssemblyInfoInputs.cache
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Migrations\obj\RELEASE\netcoreapp2.2\Consultorio.Migrations.AssemblyInfo.cs
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Migrations\obj\RELEASE\netcoreapp2.2\Consultorio.Migrations.dll
+C:\Users\jhonny\source\repos\Consultorio\src\Consultorio.Migrations\obj\RELEASE\netcoreapp2.2\Consultorio.Migrations.pdb

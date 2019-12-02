@@ -1,0 +1,40 @@
+<h1>Consultas</h1>
+
+<p *ngIf="!consultas"><em>Loading...</em></p>
+
+<br />
+<div class="row">
+  <div class="col-8">
+    <a routerLink="/consulta" class="btn btn-success">Novo</a>
+  </div>
+  <div class="col-4">
+    <form class="form-inline my-2 my-lg-0" [formGroup]="listaConsultaForm" (ngSubmit)="listar()">
+      <input class="form-control mr-sm-4" type="text" placeholder="Procurar..." formControlName="search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Procurar</button>
+    </form>
+  </div>
+</div><br />
+  <div class="row">
+    <table class='table table-striped' *ngIf="consultas">
+      <thead>
+        <tr>
+          <th>Paciente</th>
+          <th>Nascimento</th>
+          <th>Início da Consulta</th>
+          <th>Fim da Consulta</th>
+          <th>Observações</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let consulta of consultas" [routerLink]="['/consulta', consulta.id]">
+          <td>{{ consulta.nomePaciente }}</td>
+          <td>{{ consulta.dataNascimento }}</td>
+          <td>{{ consulta.dataInicial }}</td>
+          <td>{{ consulta.dataFinal }}</td>
+          <td>{{ consulta.observacoes }}</td>
+          <td><button type="button" class="btn btn-danger" (click)="excluir(consulta); $event.stopPropagation()">Excluir</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

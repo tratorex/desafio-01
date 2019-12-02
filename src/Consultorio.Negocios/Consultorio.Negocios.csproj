@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Marvin.Sdk.Business" Version="2.3.2-Build.18" />
+    <PackageReference Include="Marvin.Sdk.RestFull" Version="2.3.2-Build.18" />
+  </ItemGroup>
+
+</Project>
